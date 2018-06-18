@@ -80,15 +80,15 @@
                                         <li><a href="index.php">Home</a></li>
                                         <li><a href="about.php">About Us</a>
                                             <ul>
-                                                <li><a href="history.php" class="active">Our History</a></li>
+                                                <li><a href="history.php">Our History</a></li>
                                                 <li><a href="services.php">Our Services</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="clientele.php">Clientele</a></li>
                                         <li><a href="gallery.php">Gallery</a></li>
                                         <li><a href="portfolio.php">Portfolio</a></li>
-                                        <li><a href="contact.php">Contact</a></li>
-
+                                        <li><a href="contact.php" class="active">Contact</a></li>
+                                        <li><a href="help.php" >FAQs</a></li>
                                     </ul>
                                 </nav>
 
@@ -128,21 +128,21 @@
 
                                                 <p class="old">
                                                     <br>
-                                                    <label for="first_name">first name:</label>
+                                                    <label for="first_name">First Name:</label>
                                                     <input class="texts" type="text" name="first_name" placeholder="" required/><br>
                                                 </p>
                                                 <p class="new">
-                                                    <label for="last_name">last name:  </label>
+                                                    <label for="last_name">Last Name:  </label>
                                                     <input class="texts" type="text" name="last_name" placeholder="" required/><br>
                                                 </p>
 
                                                 <p>
-                                                    <label for="email">emailaddress:</label>
+                                                    <label for="email">EmailAddress:</label>
                                                     <input class="texts" type="email" name="email" placeholder="" required/>
                                                 </p>
 
                                                 <p class="right">
-                                                    <label for="comments">message</label><br>
+                                                    <label for="comments">Message</label><br>
                                                     <textarea class="texts" cols="46" rows="3" name="comments" required></textarea>
                                                 </p>
 
@@ -156,7 +156,7 @@
                                                     $Email=$_POST['email'];
                                                     $Message=$_POST['comments'];
                                                     $fullnames= $Fname." ".$Lname;
-                                                    
+
                                                     $sql="INSERT INTO `messages`(`Names`, `Email`, `Message`) VALUES ('$fullnames','$Email','$Message')";
                                                     include('connection.php');
                                                     mysqli_query($conn,$sql);

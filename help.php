@@ -85,7 +85,6 @@
                             <li><a href="portfolio.php">Portfolio</a></li>
                             <li><a href="contact.php">Contact</a></li>
                             <li><a href="help.php" class="active">FAQs</a></li>
-
                         </ul>
                     </nav>
 

@@ -51,17 +51,18 @@
 
 <body id="homepage">
 
-<div id="wrapper">
+<div id="wrapper" style="background: #18191b">
 
     <!-- header begin -->
-    <header>
+    <header >
 
 
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <!-- logo begin -->
-                    <div id="logo">
+
+                    <div id="logo" class="logosize">
                         <a href="index.php">
                             <img class="logo" src="images/icon.PNG" alt="">
                         </a>
@@ -86,6 +87,7 @@
                             <li><a href="gallery.php">Gallery</a></li>
                             <li><a href="portfolio.php">Portfolio</a></li>
                             <li><a href="contact.php">Contact</a></li>
+                            <li><a href="help.php" >FAQs</a></li>
                         </ul>
                     </nav>
 
@@ -373,7 +375,7 @@
                             <span><strong>Address:</strong>Road 1, Nationwide Godowns, Godown 7, Baba Dogo Rd, Nairobi</span>
                             <span><strong>Phone:</strong>+254 737 525209</span>
                             <span><strong>Email:</strong><a href="mailto:contact@archi-interior.com">contact@pentagoninterior.com</a></span>
-                            <span><strong>Web:</strong><a href="#">http://pentagoninterior.com</a></span>
+                            <span><strong>Web:</strong><a href="http://pentagoninterior.com">http://pentagoninterior.com</a></span>
                         </address>
                     </div>
                 </div>
